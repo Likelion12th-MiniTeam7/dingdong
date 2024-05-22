@@ -29,6 +29,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = my_settings.SECRET_KEY
 # SECRET_KEY = os.getenv('SECRET_KEY')
 
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -50,6 +52,7 @@ INSTALLED_APPS = [
     'Users',
     'QRs',
     'Clubs',
+    'Attendances',
 ]
 
 # user 앱에서 내가 설정한 User를 사용하겠다고 설정한다.
