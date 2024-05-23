@@ -35,7 +35,7 @@ MEDIA_ROOT = BASE_DIR / 'media'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['dingd0ng.pythonanywhere.com']
+ALLOWED_HOSTS = ['ding0dong.pythonanywhere.com']
 
 
 # Application definition
