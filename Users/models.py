@@ -1,6 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import AbstractBaseUser, BaseUserManager, PermissionsMixin
 
+
 # 헬퍼 클래스
 class UserManager(BaseUserManager):
     def create_user(self, student_id, username, password, **kwargs):
